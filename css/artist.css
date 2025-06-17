@@ -1,3 +1,77 @@
+#Top_bar .menu>li.color-red>a:after {
+	top: 0;
+	background: #ee363c
+}
+#Top_bar .menu>li.color-yellow>a:after {
+	top: 0;
+	background: #fed808
+}
+#Top_bar .menu>li.color-orange>a:after {
+	top: 0;
+	background: #e95627
+}
+#Top_bar .menu>li.color-blue>a:after {
+	top: 0;
+	background: #06ade4
+}
+#Top_bar .menu>li.color-green>a:after {
+	top: 0;
+	background: #74bd44
+}
+#Top_bar .menu>li.color-purple>a:after {
+	top: 0;
+	background: #6952a1
+}
+.mfn-main-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust based on your design */
+    background-color: #000; /* Optional: background color to better see centering */
+}
+
+.section_video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+}
+
+.section_video video {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Adjust based on desired effect */
+}
+
+#sc_gallery-1 {
+	margin: auto;
+	}
+	#sc_gallery-1 .gallery-item {
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	width: 33.33%;
+	height: 33.33%;
+
+	}
+	#sc_gallery-1 img {
+	border: 2px solid #cfcfcf;
+	}
+	#sc_gallery-1 .gallery-caption {
+	margin-left: 0;
+	}
+	
+
+	
+.image_links {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px; /* Adjust as needed */
+	}
+
+	
 #Filters.only .filters_buttons {
 	display: none
 }
@@ -43,7 +117,7 @@
 	background-position: center bottom
 }
 #Footer {
-	background-image: url(../images/home_artist_bg_footer.png);
+	
 	background-repeat: repeat-x;
 	background-position: center top
 }
@@ -1675,7 +1749,7 @@ body, button, span.date_label, .timeline_items li h3 span, input[type="submit"],
 	font-family: "Playfair Display", Arial, Tahoma, sans-serif;
 }
 h1, h2, h3, h4, .text-logo #logo {
-	font-family: "Playfair Display", Arial, Tahoma, sans-serif;
+	font-family: "Lato", Arial, Tahoma, sans-serif;
 }
 h5, h6 {
 	font-family: "Lato", Arial, Tahoma, sans-serif;
